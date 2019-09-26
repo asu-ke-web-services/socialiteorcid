@@ -6,6 +6,7 @@ use Exception;
 use Illuminate\Support\Arr;
 use SocialiteProviders\Manager\OAuth2\AbstractProvider;
 use SocialiteProviders\Manager\OAuth2\User;
+use Laravel\Socialite\Two\InvalidStateException;
 
 class Provider extends AbstractProvider
 {
